@@ -1,0 +1,209 @@
+.sidebar-link.active{
+    background: pink!important;
+}
+
+.sidebar-nav ul .sidebar-item .sidebar-link:hover,
+a:hover{
+    background-color: #ffc0cb59!important;
+    color:#5D87FF!important;
+}
+
+.bg-pink{
+    background-color: red;
+}
+
+.btn:hover{
+    background-color: pink;
+    border: 1px solid #f3657e;
+}
+
+.btn-primary{
+    background-color: red;
+    border: 1px solid #f3657e;
+    float:right;
+}
+
+#residents-table td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.dt-container div.dt-layout-row:nth-child(1){
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.dt-container div.dt-layout-row:nth-child(1) .dt-length select{
+    margin-right: 10px;
+}
+
+.btn-group.rounded{
+    position:relative;
+    border-radius: 5px;
+    
+}
+
+.dataTables_wrapper .dt-button.btn-info{
+    background-color: lightskyblue!important;
+}
+
+.select2-container .select2-selection--single{
+    display: flex!important;
+    align-items:center!important;
+}
+
+.select2-container .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection_arrow{
+    height: 38px!important;
+}
+
+.red-required {
+    color: red;
+    margin-left: 5px;
+}
+
+.required-message {
+    display: none;
+    color: red;
+    font-size: 0.8em;
+}
+
+.form-control:focus + .required-message {
+    display: block;
+}
+
+
+/* Barangay ID front-end */
+.id-front{
+    border-radius: 10px;
+    height: 350px;
+}
+
+.id-front .overlay{
+    height: 350px;
+    background: rgba(255,255,255,0.5);
+    position:relative;
+}
+
+.id-front .overlay .id-header .pink-bar{
+    background-color:#FF009D;
+    display:inline-block;
+    width: 80%;
+}
+
+.id-front .overlay .id-header{
+    position:relative;
+}
+
+.id-front .overlay .id-header .pink-bar h2{
+    font-size: 1.5em;
+}
+
+.id-front .overlay .id-header .red-bar{
+    background-color: red;
+    display: inline-block;
+    width: 70%;
+}
+
+.id-front .overlay .red-bar{
+    font-size: 1em;
+}
+    
+.pink-bar .red-bar{
+    padding-left: 30%;  
+}
+
+.id-header .logo{
+    position: absolute;
+    top: 6px;
+    left: 7%;       
+}
+
+.overlay .resident-details .resident-img{
+    width: 23%;
+    border: 5px solid  #000;
+}
+
+.overlay .resident-details{
+    position: relative;
+    margin-top: 32px;
+ 
+}
+
+.overlay .resident-details .details-box{
+    background: rgba(255,255,255,0.8);
+    padding-left: 29%;
+    border: 3px solid #000; 
+    position:relative;
+    z-index: 1;
+    
+}
+
+.overlay .resident-details .details-box .pink-vertical-bar{
+    width: 15px;
+    background: #FF009D;
+    height: 100px;
+    position:absolute;
+    right: -8px;        
+    top: 25px;
+}
+
+.overlay .id-footer{
+    background:#ff009D;
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+}
+
+#profile{
+    z-index: 2;
+    position: absolute;
+    top: -5px;
+    height: 107%;
+    
+}
+
+/* cover  */
+
+.id-back{
+    border-radius: 10px; height: 350px;
+}
+.id-back .overlay{
+height: 350px;
+background: rgba(255,255,255,0); position: relative;
+}
+.id-back .overlay .qr-code-container svg rect{
+height: 300px!important;
+width: 100% !important;
+}
+
+id-back .overlay .card-holder-disclaimer{
+background: #000;
+color: #fff;
+}
+.id-back .overlay .scan-qr-instructions{
+background: #FF009D;
+color: #fff;
+}
+
+#back_id {
+    position: absolute;
+    top: -3px;
+}
+
+.caps {
+    text-transform: uppercase;
+    font-size: 1.0em;   
+}
+
+.lost-found-instructions {
+    font-size: 0.8em;
+}
+
+.signature {
+    font-size: 0.9em;
+}
+
+.border-top-signature {
+    border-top: 2px solid black;
+}
