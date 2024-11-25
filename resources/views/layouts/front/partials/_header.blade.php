@@ -14,6 +14,33 @@
 
   <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+  <style>
+        /* styles.css */
+    body.dark-mode {
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    body.dark-mode .card {
+      background-color: #1e1e1e;
+      color: #ffffff;
+    }
+
+    body.dark-mode input.form-control {
+      background-color: #333333;
+      color: #ffffff;
+      border: 1px solid #444444;
+    }
+
+    body.dark-mode .form-check-label {
+      color: #bbbbbb;
+    }
+
+    body.dark-mode .btn-primary {
+      background-color: #0056b3;
+      border-color: #004085;
+    }
+  </style>
 
 
 </head>
