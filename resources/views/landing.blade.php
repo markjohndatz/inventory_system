@@ -2,7 +2,7 @@
 @section('page-title','Login')
 @section('contents')
 
-
+<div class="page-wrapper dark-mode-toggle-container" id="main-wrapper">
   <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
     data-sidebar-position="fixed" data-header-position="fixed">
     <div
@@ -43,6 +43,10 @@
                   </div>
                   <input type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2" value="Log In">
                 </form>
+                <div class="text-end">
+                  <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
+                  <input type="checkbox" id="darkModeToggle">
+                </div>
               </div>
             </div>
           </div>
@@ -50,4 +54,5 @@
       </div>
     </div>
   </div>
+</div>
 @endsection
