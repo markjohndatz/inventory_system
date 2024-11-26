@@ -20,8 +20,8 @@
 
       <nav class="sidebar-nav scroll-sidebar" data-simplebar="">
         <ul id="sidebarnav">
-          <li class="sidebar-item {{ request()->is('admin*') ? 'active' : '' }} mt-2">
-            <a class="sidebar-link" href="" aria-expanded="false" title="Dashboard">
+          <li class="sidebar-item  mt-2">
+            <a class="sidebar-link" href="{{ route('dashboard') }}" aria-expanded="false" title="Dashboard">
               <span>
                 <i class="ti ti-layout-dashboard"></i>
               </span>
@@ -32,7 +32,7 @@
  
          
           <li id="Item-link" class="sidebar-item">
-            <a class="sidebar-link " aria-expanded="false" title="Item">
+            <a class="sidebar-link " href="{{ route('items.index') }}" aria-expanded="false" title="Item">
               <span>
                 <i class="fa-solid fa-toolbox"></i>
               </span>
