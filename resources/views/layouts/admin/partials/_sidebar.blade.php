@@ -17,6 +17,40 @@
       <!-- Divider -->
       <hr class="sidebar-divider m-0 p-0">
       <!-- End of Divider -->
+
+      <nav class="sidebar-nav scroll-sidebar" data-simplebar="">
+        <ul id="sidebarnav">
+          <li class="sidebar-item {{ request()->is('admin*') ? 'active' : '' }} mt-2">
+            <a class="sidebar-link" href="" aria-expanded="false" title="Dashboard">
+              <span>
+                <i class="ti ti-layout-dashboard"></i>
+              </span>
+              <span class="hide-menu">Dashboard</span>
+            </a>
+          </li>
+  
+ 
+         
+          <li id="Item-link" class="sidebar-item">
+            <a class="sidebar-link " aria-expanded="false" title="Item">
+              <span>
+                <i class="fa-solid fa-toolbox"></i>
+              </span>
+              <span class="hide-menu">Item</span>
+            </a>
+          </li>
+         
+          
+          
+          <li id="Item-Category-link" class="sidebar-item">
+            <a class="sidebar-link " aria-expanded="false" title="Item-Category">
+              <span>
+                <i class="fa-solid fa-clipboard-list"></i>
+              </span>
+              <span class="hide-menu">Item Category</span>
+            </a>
+          </li>
+          
   
    
           
