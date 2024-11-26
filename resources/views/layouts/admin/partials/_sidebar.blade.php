@@ -43,7 +43,7 @@
           
           
           <li id="Item-Category-link" class="sidebar-item">
-            <a class="sidebar-link " aria-expanded="false" title="Item-Category">
+            <a class="sidebar-link "  href="{{ route('itemCategories.index') }}" aria-expanded="false" title="Item-Category">
               <span>
                 <i class="fa-solid fa-clipboard-list"></i>
               </span>
